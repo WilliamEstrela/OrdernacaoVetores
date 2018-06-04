@@ -41,6 +41,9 @@ void imprimeVetorCincoPrimeiros(long int vet[]){
 Função que recebe um vetor de inteiros e ordena-o retornando o tempo gasto
 */
 float bubble_sort(long int vetor[], long int n) {
+	
+	long int comparacoes=0;
+	long int alteracoes=0;
 
 	clock_t start = clock();
 
@@ -49,8 +52,9 @@ float bubble_sort(long int vetor[], long int n) {
 	for(pass = 0; pass < n-1; pass++){
 		
 		for(j=0; j < n-pass-1; j++){
-
+			comparacoes++;
 			if(vetor[j] > vetor[j+1]){
+				alteracoes++;
 				aux = vetor[j];
 				vetor[j] = vetor[j+1];
 				vetor[j+1] = aux;
@@ -61,7 +65,7 @@ float bubble_sort(long int vetor[], long int n) {
 
 	clock_t end = clock();
 	float seconds = (float)(end - start) / CLOCKS_PER_SEC;
-	cout << "QTD: "<< n << " TEMPO: " << seconds  << endl;
+	cout << "QTD: "<< n << " TEMPO: " << seconds << " Comparacoes: "<< comparacoes << " Alteracoes: " << alteracoes << endl;
 	return seconds;
 }
 
