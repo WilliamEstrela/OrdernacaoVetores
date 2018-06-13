@@ -1,0 +1,3 @@
+/home/william/Área de Trabalho/ordenacao/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/william/Área de Trabalho/ordenacao/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/william/Área de Trabalho/ordenacao/cmake-build-debug/CMakeFiles/ordenacao.dir

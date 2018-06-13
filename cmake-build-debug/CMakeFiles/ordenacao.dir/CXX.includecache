@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/william/Área de Trabalho/ordenacao/BoubleSort/BoubleSort.cpp
+iostream
+-
+
+/home/william/Área de Trabalho/ordenacao/BoubleSort/treinando/bolha.cpp
+iostream
+-
+
+/home/william/Área de Trabalho/ordenacao/BoubleSortPlus/BoubleSortPlus.cpp
+iostream
+-
+
+/home/william/Área de Trabalho/ordenacao/Quick/Quick.cpp
+iostream
+-
+
+/home/william/Área de Trabalho/ordenacao/SelectionSort/Selection.cpp
+iostream
+-
+
+/home/william/Área de Trabalho/ordenacao/SelectionSort/SelectionTeste.cpp
+stdio.h
+-
+iostream
+-
+

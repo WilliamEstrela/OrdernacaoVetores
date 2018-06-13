@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="700" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.ordenacao">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="ordenacao" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ordenacao" TARGET_NAME="ordenacao" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ordenacao" RUN_TARGET_NAME="ordenacao" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.ordenacao" />
+    </list>
+  </component>
+</project>
